@@ -42,7 +42,9 @@ html,body{
   .hero {
     height: calc(100vh - 76px);
     position: relative;
-    background: url('./images/image.png') no-repeat center center/cover;
+    background: url('./images/Hero_bhatk.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     
   }
@@ -53,7 +55,7 @@ html,body{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+   /* background: rgba(0, 0, 0, 0.5); */
   }
 
   .hero .container {
@@ -97,6 +99,41 @@ html,body{
     }
   }
 
+  /* About Section */
+.about_wrapper {
+  background-color: rgba(0, 123, 255, 0.75); /* Match button color with reduced opacity */
+}
+
+.slick-carousel{
+  /*
+  height: 300px;
+  object-fit: cover;
+  */
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.slick-carousel img {
+  height: 300px;
+    object-fit: cover;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+ul li i {
+  color: #000;
+  margin-right: 10px;
+}
+
   /* Explore Section */
 .culture-card {
   height: 100%;
@@ -132,5 +169,40 @@ html,body{
   font-family: 'Open Sans', sans-serif;
   color: #666;
 }
+
+
+
+.btn-info:hover {
   
+  color: #fff;
+}
+  
+
+.btn-info:hover i {
+  color: #fff;
+}
+
+/* Fulmaya Insight Section */
+#fulmaya-insight {
+  background-color: #f8f9fa; /* Light background color */
+}
+
+#fulmaya-insight .row {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 3D shadow effect */
+  border-radius: 10px;
+}
+
+#fulmaya-insight img {
+  border-radius: 10px;
+}
+
+#fulmaya-insight blockquote {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+#fulmaya-insight blockquote footer {
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+}
   
