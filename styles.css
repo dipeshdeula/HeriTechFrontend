@@ -206,3 +206,37 @@ ul li i {
   color: #666;
 }
   
+ /*footer css */
+ .footer-section {
+  background-color: #115779;
+}
+
+.footer-section .text-warning {
+  color: #FFA500 !important;
+}
+
+.footer-section a {
+  text-decoration: none;
+}
+
+.footer-bottom {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.social-links a {
+  transition: opacity 0.3s ease;
+}
+
+.social-links a:hover {
+  opacity: 0.8;
+}
+
+#contact-info li{
+  color: #fff;
+}
+
+#more-info
+{
+  color:#000;
+  
+}
