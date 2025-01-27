@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+#learn-tooltip:hover .show-learn{
+    display: block;
+}
 html,body{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
